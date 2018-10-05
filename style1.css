@@ -400,7 +400,7 @@ footer{
 		width: 100vh;
 	}
 	.img_topo{
-		width: 59.5vh;
+		width: 100%;
 	}
 	.cabeça{
 		width: 730px;
@@ -409,7 +409,7 @@ footer{
 		transform: rotate(90deg);
 		filter: blur(5px);
 		height: 1050px;
-		width: 1200px;
+		width: 1155px;
 		position: relative;
 		left: -350px;
 		top:-100px;
@@ -479,7 +479,7 @@ footer{
 	.text_reforço{
 		position: relative;
 		top: -760px;
-		left: 490px;
+		left: 470px;
 		font-size: 30px;
 	}
 	.img_ingles{
@@ -526,7 +526,7 @@ footer{
 	.text_teatro{
 		position: relative;
 		top:-1000px;
-		left: 530px;
+		left: 510px;
 		font-size: 30px;
 	}
 	.img_dança{
@@ -551,9 +551,10 @@ footer{
 	}
 	.text_capoeira{
 		position: relative;
-		left: 430px;
-		top:50px; ;
+		left: 480px;
+		top:-1120px;
 		font-size: 30px;
+		color: black;
 	}
 	.impacto_color{
 		position: relative;
@@ -585,5 +586,60 @@ footer{
 		position: relative;
 		left: 40px;
 		top: -1520px;
+	}
+	.p_container1{
+		position: relative;
+		left: 10px;
+		top: -1490px;
+	}
+	.p_container2{
+		position: relative;
+		left: 20px;
+		top: -1490px;	
+	}
+	.c_conteiner{
+		width: 750px;
+		height: 980px;
+		position: relative;
+		left: -10px;
+	}
+	.img_contato{
+		position: relative;
+		left: 80px;
+		top: 25px;
+		width: 550px;
+		height: 380px;
+	}
+	.titulo4 {
+		position: relative;
+		top: 60px;
+		font-family: KorolevBold;
+		font-size: 35px;
+	}
+	.numero_tel{
+		position: relative;	
+		top: 80px;
+		font-family: KorolevBold;
+		font-size: 35px;
+		width: 250px;
+	}
+	.Endereço {
+		position: relative;	
+		top: 280px;
+		font-family: KorolevBold;
+		font-size: 35px;
+		width: 450px;
+	}
+	.end_email {
+		position: relative;	
+		top: 20px;
+		font-family: KorolevBold;
+		font-size: 35px;
+		width: 250px;
+	}
+	footer{
+		position: relative;
+		top: 3050px;
+		left: 250px;
 	}
 }
